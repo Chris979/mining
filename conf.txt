@@ -15,7 +15,7 @@ custompanel dfreshdminer
 miner 464151 claymore
 flg 464151 --cl-global-work 8192 --farm-recheck 200
 mxt 464151 90
-reb 464151 1
+reb 464151 2
 loc 464151 fresh-01
 cor 464151 1150 1150 1150 1150 1150 1150 1150
 mem 464151 2050 2050 2050 2050 2050 2050 2050 
@@ -24,7 +24,7 @@ sel 464151 0 1 2 3 4 5 6
 miner cf0293 claymore
 flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
-reb cf0293 2
+reb cf0293 3
 loc cf0293 fresh-03
 cor cf0293 1150 1150 1150 1150 1150 1150 1150
 mem cf0293 2200 2200 2200 2200 2200 2200 2200
