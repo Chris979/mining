@@ -8,11 +8,11 @@ stratumproxy enabled
 #poolpass1 x
 #poolpass2 x
 
-proxywallet Raymon.fresh
-proxypool1 sigt.pool.mn:8732
-proxypool2 sigt.pool.mn:8732
+#proxywallet Raymom
+proxypool1 stratum+tcp://sigt.suprnova.cc:7106
+proxypool2 stratum+tcp://sigt.suprnova.cc:7106
 poolpass1 raymon
-poolpass2 x
+poolpass2 raymon
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 autoreboot 5
@@ -23,7 +23,7 @@ custompanel dfreshdminer
 miner 464151 claymore
 flg 464151 --cl-global-work 8192 --farm-recheck 200
 mxt 464151 90
-reb 464151 6
+reb 464151 7
 loc 464151 fresh-01
 cor 464151 1150 1150 1150 1150 1150 1150 1150
 mem 464151 2000 2050 2050 2050 2000 2050 2050 
