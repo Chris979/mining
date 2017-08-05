@@ -2,8 +2,8 @@ globalminer claymore
 maxgputemp 93
 stratumproxy enabled
 proxywallet Raymon.fresh
-proxypool1 eu1.ethermine.org:4444
-proxypool2 eu2.ethermine.org:4444
+proxypool1 sigt.pool.mn:8732
+proxypool2 sigt.pool.mn:8732
 poolpass1 raymon
 poolpass2 x
 flags --cl-global-work 8192 --farm-recheck 200
@@ -16,7 +16,7 @@ custompanel dfreshdminer
 miner 464151 claymore
 flg 464151 --cl-global-work 8192 --farm-recheck 200
 mxt 464151 90
-reb 464151 5
+reb 464151 6
 loc 464151 fresh-01
 cor 464151 1150 1150 1150 1150 1150 1150 1150
 mem 464151 2000 2050 2050 2050 2000 2050 2050 
@@ -26,7 +26,7 @@ sel 464151 0 1 2 3 4 5 6
 miner d14934 claymore
 flg d14934 --cl-global-work 8192 --farm-recheck 200
 mxt d14934 90
-reb d14934 0
+reb d14934 1
 loc d14934 fresh-02
 cor d14934 1200 1200 1200 1200 1200 1200 1200
 mem d14934 1900 1900 1900 1900 1900 1900 1900
@@ -36,7 +36,7 @@ sel d14934 0 1 2 3 4 5 6
 miner cf0293 claymore
 flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
-reb cf0293 1
+reb cf0293 10
 loc cf0293 fresh-03
 cor cf0293 1250 1250 1250 1250 1250 1250 1250
 mem cf0293 2150 2150 2150 2150 2150 2150 2050
@@ -46,7 +46,7 @@ sel cf0293 0 1 2 3 4 5 6
 miner d14b21 claymore
 flg d14b21 --cl-global-work 8192 --farm-recheck 200
 mxt d14b21 90
-reb d14b21 1
+reb d14b21 2
 loc d14b21 fresh-04
 cor d14b21 1150 1350 1350 1350 1350 1350 1350
 mem d14b21 1900 2000 2000 2000 2000 2000 2000
