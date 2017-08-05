@@ -1,10 +1,10 @@
 globalminer claymore
 maxgputemp 93
 stratumproxy enabled
-proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
+proxywallet Raymon.fresh
 proxypool1 eu1.ethermine.org:4444
 proxypool2 eu2.ethermine.org:4444
-poolpass1 x
+poolpass1 raymon
 poolpass2 x
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
