@@ -24,9 +24,9 @@ custompanel dfreshdminer
 
 #Fresh01
 miner 464151 sgminer-gm
-#flg 464151 -i 20
+Flg 464151 -o stratum+tcp://stratum.chainworksindustries.com:2000 -u raymon.fresh-01 -p x
 mxt 464151 90
-reb 464151 14
+reb 464151 15
 loc 464151 fresh-01
 #cor 464151 1150 1150 1150 1150 1150 1150 1150
 #mem 464151 2000 2050 2050 2050 2000 2050 2050 
