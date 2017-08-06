@@ -10,7 +10,7 @@ claymore=Poolpass1 x
 claymore=poolpass2 x
 
 #signatum
-sgminer-gm=proxywallet raymon.fresh
+sgminer-gm=proxywallet raymon
 sgminer-gm=proxypool1 stratum.chainworksindustries.com:2000
 sgminer-gm=proxypool2 stratum.chainworksindustries.com:2000
 sgminer-gm=Poolpass1 x
@@ -26,7 +26,7 @@ custompanel dfreshdminer
 miner 464151 sgminer-gm
 #flg 464151 -i 20
 mxt 464151 90
-reb 464151 13
+reb 464151 14
 loc 464151 fresh-01
 #cor 464151 1150 1150 1150 1150 1150 1150 1150
 #mem 464151 2000 2050 2050 2050 2000 2050 2050 
