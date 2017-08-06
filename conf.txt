@@ -9,6 +9,14 @@ claymore=proxypool2 eu2.ethermine.org:4444
 claymore=Poolpass1 x
 claymore=poolpass2 x
 
+#signatum
+sgminer-gm=proxywallet Raymom.fresh-01
+sgminer-gm=proxypool1 sigt.pool.mn:8732
+sgminer-gm=proxypool2 sigt.pool.mn:8732
+sgminer-gm=poolpass1 x
+sgminer-gm=poolpass2 x
+
+
 claymore=flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 autoreboot 5
@@ -54,10 +62,3 @@ loc d14b21 fresh-04
 cor d14b21 1150 1350 1350 1350 1350 1350 1350
 mem d14b21 1900 2000 2000 2000 2000 2000 2000
 sel d14b21 0 1 2 3 4 5 6
-
-#signatum
-sgminer-gm=proxywallet Raymom
-sgminer-gm=proxypool1 sigt.pool.mn:8732
-sgminer-gm=proxypool2 sigt.pool.mn:8732
-sgminer-gm=poolpass1 x
-sgminer-gm=poolpass2 x
