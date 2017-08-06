@@ -3,26 +3,26 @@ maxgputemp 93
 stratumproxy enabled
 
 #Etherium
-#proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
-#proxypool1 eu1.ethermine.org:4444
-#proxypool2 eu2.ethermine.org:4444
-#Poolpass1 x
-#poolpass2 x
+claymore=proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
+claymore=proxypool1 eu1.ethermine.org:4444
+claymore=proxypool2 eu2.ethermine.org:4444
+claymore=Poolpass1 x
+claymore=poolpass2 x
 
-flags --cl-global-work 8192 --farm-recheck 200
+claymore=flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 autoreboot 5
 lockscreen enabled
 custompanel dfreshdminer
 
 #Fresh01
-miner 464151 claymore
-flg 464151 --cl-global-work 8192 --farm-recheck 200
+miner 464151 sgminer-gm
+flg 464151 -i 20
 mxt 464151 90
-reb 464151 10
+reb 464151 11
 loc 464151 fresh-01
-cor 464151 1150 1150 1150 1150 1150 1150 1150
-mem 464151 2000 2050 2050 2050 2000 2050 2050 
+#cor 464151 1150 1150 1150 1150 1150 1150 1150
+#mem 464151 2000 2050 2050 2050 2000 2050 2050 
 sel 464151 0 1 2 3 4 5 6
 
 #Fresh 02
