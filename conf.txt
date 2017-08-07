@@ -46,7 +46,7 @@ sel d14934 0 1 2 3 4 5 6
 miner cf0293 claymore
 flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
-reb cf0293 11
+reb cf0293 0
 loc cf0293 fresh-03
 cor cf0293 1250 1250 1250 1250 1250 1250 1250
 mem cf0293 2150 2150 2150 2150 2150 2150 2050
