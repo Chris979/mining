@@ -3,18 +3,18 @@ maxgputemp 93
 stratumproxy enabled
 
 #Etherium
-#claymore=proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
-#claymore=proxypool1 eu1.ethermine.org:4444
-#claymore=proxypool2 eu2.ethermine.org:4444
-#claymore=Poolpass1 x
-#claymore=poolpass2 x
+claymore=proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
+claymore=proxypool1 eu1.ethermine.org:4444
+claymore=proxypool2 eu2.ethermine.org:4444
+claymore=Poolpass1 x
+claymore=poolpass2 x
 
 #signatum
-proxywallet raymon
-proxypool1 stratum.chainworksindustries.com:2000
-proxypool2 stratum.chainworksindustries.com:2000
-Poolpass1 x
-poolpass2 x
+#proxywallet raymon
+#proxypool1 stratum.chainworksindustries.com:2000
+#proxypool2 stratum.chainworksindustries.com:2000
+#Poolpass1 x
+#poolpass2 x
 
 claymore=flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
