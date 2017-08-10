@@ -33,8 +33,9 @@ mem 464151 2000 2050 2050 2050 2000 2050 2050
 sel 464151 0 1 2 3 4 5 6
 
 #Fresh 02
-miner d14934 claymore
-flg d14934 --cl-global-work 8192 --farm-recheck 200
+miner d14934 sgminer-gm
+flg d14934 -i 22
+#flg d14934 --cl-global-work 8192 --farm-recheck 200
 mxt d14934 90
 reb d14934 4
 loc d14934 fresh-02
