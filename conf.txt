@@ -1,4 +1,4 @@
-globalminer sgminer-gm
+globalminer claymore
 maxgputemp 93
 stratumproxy enabled
 
