@@ -62,3 +62,6 @@ loc d14b21 fresh-04
 cor d14b21 1150 1150 1150 1150 1150 1150 1150
 mem d14b21 1900 2000 2000 2000 2000 2000 2000
 sel d14b21 0 1 2 3 4 5 6
+
+#Etherium of lijkende coin is claymore
+#Andere coin is sgminer-gm
