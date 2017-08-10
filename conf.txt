@@ -3,7 +3,7 @@ maxgputemp 93
 stratumproxy enabled
 claymore=flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
-autoreboot 5
+autoreboot 6
 lockscreen enabled
 custompanel dfreshdminer
 
