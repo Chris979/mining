@@ -59,3 +59,14 @@ sel d14b21 0 1 2 3 4 5 6
 
 #Etherium of lijkende coin is claymore
 #Andere coin is sgminer-gm
+
+
+# Hashtag voor iets zetten zodat je aantekening kunt maken. Geen hashtag wordt meegenomen in programmering.
+#Fresh04   < Naam miner
+#miner d14b21 claymore < Enkel Ether is Claymore en andere coins zijn via sgminer-gm
+#mxt d14b21 90 < Maximale temperatuur - automatisch valt de kaart dan uit
+#reb d14b21 0 < Op afstand rebooten. Elke keer dat je reboot moet je een hoger getal neerzetten per miner. De eerste keer zet je er een 1 neer, de tweede keer een 2 en zo optellen.
+#loc d14b21 fresh-04  < naam van de miner, zo moet de miner ook in de pool heten
+#cor d14b21 1150 1150 1150 1150 1150 1150 1150    < Videokaart snelheid, processor, weinig invloed als het wordt aangepast
+#mem d14b21 1900 2000 2000 2000 2000 2000 2000    < Memory, geheugensnelheid van de kaart. Grootste invloed op miningsnelheid.
+#sel d14b21 0 1 2 3 4 5 6     < Volgorde van de kaarten.. niet aanpassen
