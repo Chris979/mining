@@ -23,13 +23,13 @@ lockscreen enabled
 custompanel dfreshdminer
 
 #Fresh01
-miner 464151 sgminer-gm
-#flg 464151 --cl-global-work 8192 --farm-recheck 200
+miner 464151 claymore
+flg 464151 --cl-global-work 8192 --farm-recheck 200
 mxt 464151 90
 reb 464151 0
 loc 464151 fresh-01
 cor 464151 1150 1150 1150 1150 1150 1150 1150
-mem 464151 2050 2050 2050 2050 2050 2050 2050 
+mem 464151 2100 2100 2100 2100 2100 2100 2100 
 sel 464151 0 1 2 3 4 5 6
 
 #Fresh 02
@@ -44,18 +44,18 @@ mem d14934 2000 2000 2000 2000 2000 2000 2000
 sel d14934 0 1 2 3 4 5 6
 
 #Fresh03
-miner cf0293 sgminer-gm
-#flg cf0293 --cl-global-work 8192 --farm-recheck 200
+miner cf0293 claymore
+flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
 reb cf0293 0
 loc cf0293 fresh-03
 cor cf0293 1150 1150 1150 1150 1150 1150 1150
-mem cf0293 2050 2050 2050 2050 2050 2050 2050
+mem cf0293 2100 2100 2100 2100 2100 2100 2100
 sel cf0293 0 1 2 3 4 5 6
 
 #Fresh04
-miner d14b21 sgminer-gm
-#flg d14b21 --cl-global-work 8192 --farm-recheck 200
+miner d14b21 claymore
+flg d14b21 --cl-global-work 8192 --farm-recheck 200
 mxt d14b21 90
 reb d14b21 0
 loc d14b21 fresh-04
