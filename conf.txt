@@ -1,79 +1,72 @@
-globalminer sgminer-gm-xmr
-maxgputemp 93
-stratumproxy enabled
-claymore=flags --cl-global-work 8192 --farm-recheck 200
-globalfan 100
-autoreboot 5
-lockscreen enabled
-custompanel dfreshdminer
-
-#Monero
-proxywallet 9f4d70dafc703bc1e3f1c586b7d6787d5658b55a0ea5e0b27fab420e58395502
-proxypool1 pool.minexmr.com:7777
-proxypool2 pool.minexmr.com:7777
-Poolpass1 x
-poolpass2 x
-
-#Etherium
-proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
-proxypool1 eu1.ethermine.org:4444
-proxypool2 eu2.ethermine.org:4444
-Poolpass1 x
-poolpass2 x
-
-#signatum
-#proxywallet raymon
-#proxypool1 stratum.chainworksindustries.com:2000
-#proxypool2 stratum.chainworksindustries.com:2000
-#Poolpass1 x
-#poolpass2 x
-
-#Fresh01
-miner 464151 sgminer-gm-xmr
-mxt 464151 90
-reb 464151 2
-loc 464151 fresh-01
-cor 464151 1150 1150 1150 1150 1150 1150 1150
-mem 464151 2050 2100 2050 2100 2100 2100 2100 
-sel 464151 0 1 2 3 4 5 6
-
-#Fresh 02
-miner d14934 claymore
-mxt d14934 90
-reb d14934 2
-loc d14934 fresh-02
-cor d14934 1150 1150 1150 1150 1150 1150 1150
-mem d14934 2000 2000 2000 1950 1950 1900 1900
-sel d14934 0 1 2 3 4 5 6
-
-#Fresh03
-miner cf0293 sgminer-gm-xmr
-mxt cf0293 90
-reb cf0293 1
-loc cf0293 fresh-03
-cor cf0293 1300 1300 1300 1300 1300 1300 1300
-mem cf0293 2150 2150 2150 2150 2150 2150 2150
-sel cf0293 0 1 2 3 4 5 6
-
-#Fresh04
-miner d14b21 sgminer-gm-xmr
-mxt d14b21 90
-reb d14b21 2
-loc d14b21 fresh-04
-cor d14b21 1150 1150 1150 1150 1150 1150 1150
-mem d14b21 1900 2000 2000 2000 2000 2000 2000
-sel d14b21 0 1 2 3 4 5 6
-
-#Etherium of lijkende coin is claymore
-#Andere coin is sgminer-gm
-
-
-# Hashtag voor iets zetten zodat je aantekening kunt maken. Geen hashtag wordt meegenomen in programmering.
-#Fresh04   < Naam miner
-#miner d14b21 claymore < Enkel Ether is Claymore en andere coins zijn via sgminer-gm
-#mxt d14b21 90 < Maximale temperatuur - automatisch valt de kaart dan uit
-#reb d14b21 0 < Op afstand rebooten. Elke keer dat je reboot moet je een hoger getal neerzetten per miner. De eerste keer zet je er een 1 neer, de tweede keer een 2 en zo optellen.
-#loc d14b21 fresh-04  < naam van de miner, zo moet de miner ook in de pool heten
-#cor d14b21 1150 1150 1150 1150 1150 1150 1150    < Videokaart snelheid, processor, weinig invloed als het wordt aangepast
-#mem d14b21 1900 2000 2000 2000 2000 2000 2000    < Memory, geheugensnelheid van de kaart. Grootste invloed op miningsnelheid.
-#sel d14b21 0 1 2 3 4 5 6     < Volgorde van de kaarten.. niet aanpassen.
+ globalminer  claymore
+	maxgputemp 93
+	stratumproxy enabled
+	claymore=flags --cl-global-work 8192 --farm-recheck 200
+	globalfan 100
+	autoreboot 5
+	lockscreen enabled
+	custompanel dfreshdminer
+	 
+	#Etherium
+	proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
+	proxypool1 eu1.ethermine.org:4444
+	proxypool2 eu2.ethermine.org:4444
+	Poolpass1 x
+	poolpass2 x
+	 
+	#signatum
+	#proxywallet raymon
+	#proxypool1 stratum.chainworksindustries.com:2000
+	#proxypool2 stratum.chainworksindustries.com:2000
+	#Poolpass1 x
+	#poolpass2 x
+	 
+	#Fresh01
+	miner 464151 claymore
+	mxt 464151 90
+	reb 464151 2
+	loc 464151 fresh-01
+	cor 464151 1150 1150 1150 1150 1150 1150 1150
+	mem 464151 2050 2100 2050 2100 2100 2100 2100 
+	sel 464151 0 1 2 3 4 5 6
+	 
+	#Fresh 02
+	miner d14934 claymore
+	mxt d14934 90
+	reb d14934 2
+	loc d14934 fresh-02
+	cor d14934 1150 1150 1150 1150 1150 1150 1150
+	mem d14934 2000 2000 2000 1950 1950 1900 1900
+	sel d14934 0 1 2 3 4 5 6
+	 
+	#Fresh03
+	miner cf0293 claymore
+	mxt cf0293 90
+	reb cf0293 1
+	loc cf0293 fresh-03
+	cor cf0293 1300 1300 1300 1300 1300 1300 1300
+	mem cf0293 2150 2150 2150 2150 2150 2150 2150
+	sel cf0293 0 1 2 3 4 5 6
+	 
+	#Fresh04
+	miner d14b21 claymore
+	mxt d14b21 90
+	reb d14b21 2
+	loc d14b21 fresh-04
+	cor d14b21 1150 1150 1150 1150 1150 1150 1150
+	mem d14b21 1900 2000 2000 2000 2000 2000 2000
+	sel d14b21 0 1 2 3 4 5 6
+	 
+	#Etherium of lijkende coin is claymore
+	#Andere coin is sgminer-gm
+	 
+	 
+	# Hashtag voor iets zetten zodat je aantekening kunt maken. Geen hashtag wordt meegenomen in programmering.
+	#Fresh04   < Naam miner
+	#miner d14b21 claymore < Enkel Ether is Claymore en andere coins zijn via sgminer-gm
+	#mxt d14b21 90 < Maximale temperatuur - automatisch valt de kaart dan uit
+	#reb d14b21 0 < Op afstand rebooten. Elke keer dat je reboot moet je een hoger getal neerzetten per miner. De eerste keer zet je er een 1 neer, de tweede keer een 2 en zo optellen.
+	#loc d14b21 fresh-04  < naam van de miner, zo moet de miner ook in de pool heten
+	#cor d14b21 1150 1150 1150 1150 1150 1150 1150    < Videokaart snelheid, processor, weinig invloed als het wordt aangepast
+	#mem d14b21 1900 2000 2000 2000 2000 2000 2000    < Memory, geheugensnelheid van de kaart. Grootste invloed op miningsnelheid.
+	#sel d14b21 0 1 2 3 4 5 6     < Volgorde van de kaarten.. niet aanpassen.
