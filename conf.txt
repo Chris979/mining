@@ -29,7 +29,7 @@ poolpass2 x
 #poolpass2 x
 
 #Fresh01
-miner 464151 claymore
+miner 464151 sgminer-gm-xmr
 mxt 464151 90
 reb 464151 2
 loc 464151 fresh-01
@@ -47,7 +47,7 @@ mem d14934 2000 2000 2000 1950 1950 1900 1900
 sel d14934 0 1 2 3 4 5 6
 
 #Fresh03
-miner cf0293 claymore
+miner cf0293 sgminer-gm-xmr
 mxt cf0293 90
 reb cf0293 1
 loc cf0293 fresh-03
