@@ -1,4 +1,4 @@
-globalminer claymore
+globalminer sgminer-gm-xmr
 maxgputemp 93
 stratumproxy enabled
 claymore=flags --cl-global-work 8192 --farm-recheck 200
@@ -6,6 +6,13 @@ globalfan 100
 autoreboot 5
 lockscreen enabled
 custompanel dfreshdminer
+
+#Monero
+proxywallet 9f4d70dafc703bc1e3f1c586b7d6787d5658b55a0ea5e0b27fab420e58395502
+proxypool1 pool.minexmr.com:7777
+proxypool2 pool.minexmr.com:7777
+Poolpass1 x
+poolpass2 x
 
 #Etherium
 proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
