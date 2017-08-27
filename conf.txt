@@ -15,11 +15,11 @@ Poolpass1 x
 poolpass2 x
 	 
 #Monero
-proxywallet 9f4d70dafc703bc1e3f1c586b7d6787d5658b55a0ea5e0b27fab420e58395502
-proxypool1 mine.moneropool.com:8080
-proxypool2 mine.moneropool.com:3334
-Poolpass1 x
-poolpass2 x
+#proxywallet 9f4d70dafc703bc1e3f1c586b7d6787d5658b55a0ea5e0b27fab420e58395502
+#proxypool1 mine.moneropool.com:8080
+#proxypool2 mine.moneropool.com:3334
+#Poolpass1 x
+#poolpass2 x
 	 
 #Fresh01
 miner 464151 claymore
