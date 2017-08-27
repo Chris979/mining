@@ -1,7 +1,7 @@
 globalminer claymore
 maxgputemp 93
 stratumproxy enabled
-#claymore=flags --cl-global-work 8192 --farm-recheck 200
+claymore=flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 autoreboot 5
 lockscreen enabled
@@ -26,8 +26,8 @@ miner 464151 claymore
 mxt 464151 90
 reb 464151 3
 loc 464151 fresh-01
-#cor 464151 1150 1150 1150 1150 1150 1150 1150
-#mem 464151 2050 2100 2050 2100 2100 2100 2100 
+cor 464151 1150 1150 1150 1150 1150 1150 1150
+mem 464151 2050 2100 2050 2100 2100 2100 2100 
 sel 464151 0 1 2 3 4 5 6
 	 
 #Fresh 02
