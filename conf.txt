@@ -1,4 +1,4 @@
-globalminer  sgminer-gm-xmr
+globalminer  claymore
 maxgputemp 93
 stratumproxy enabled
 #claymore=flags --cl-global-work 8192 --farm-recheck 200
@@ -22,7 +22,7 @@ Poolpass1 x
 poolpass2 x
 	 
 #Fresh01
-miner 464151 sgminer-gm-xmr
+miner 464151 claymore
 mxt 464151 90
 reb 464151 3
 loc 464151 fresh-01
@@ -31,7 +31,7 @@ loc 464151 fresh-01
 sel 464151 0 1 2 3 4 5 6
 	 
 #Fresh 02
-miner d14934 sgminer-gm-xmr
+miner d14934 claymore
 mxt d14934 90
 reb d14934 3
 loc d14934 fresh-02
@@ -40,7 +40,7 @@ mem d14934 2000 2000 2000 1950 1950 1900 1900
 sel d14934 0 1 2 3 4 5 6
 	 
 #Fresh03
-miner cf0293 sgminer-gm-xmr
+miner cf0293 claymore
 mxt cf0293 90
 reb cf0293 2
 loc cf0293 fresh-03
@@ -49,7 +49,7 @@ mem cf0293 2150 2150 2150 2150 2150 2150 2150
 sel cf0293 0 1 2 3 4 5 6
 	 
 #Fresh04
-miner d14b21 sgminer-gm-xmr
+miner d14b21 claymore
 mxt d14b21 90
 reb d14b21 3
 loc d14b21 fresh-04
