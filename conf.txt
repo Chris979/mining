@@ -16,7 +16,7 @@ custompanel dfreshdminer
 	 
 #Monero
 proxywallet 9f4d70dafc703bc1e3f1c586b7d6787d5658b55a0ea5e0b27fab420e58395502
-proxypool1 mine.moneropool.com:3333
+proxypool1 mine.moneropool.com:8080
 proxypool2 mine.moneropool.com:3334
 Poolpass1 x
 poolpass2 x
@@ -26,8 +26,8 @@ miner 464151 sgminer-gm-xmr
 mxt 464151 90
 reb 464151 2
 loc 464151 fresh-01
-cor 464151 1150 1150 1150 1150 1150 1150 1150
-mem 464151 2050 2100 2050 2100 2100 2100 2100 
+#cor 464151 1150 1150 1150 1150 1150 1150 1150
+#mem 464151 2050 2100 2050 2100 2100 2100 2100 
 sel 464151 0 1 2 3 4 5 6
 	 
 #Fresh 02
