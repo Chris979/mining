@@ -1,4 +1,4 @@
-globalminer  claymore
+globalminer claymore
 maxgputemp 93
 stratumproxy enabled
 #claymore=flags --cl-global-work 8192 --farm-recheck 200
