@@ -8,18 +8,18 @@ lockscreen enabled
 custompanel dfreshdminer
 	 
 #Etherium
-proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
-proxypool1 eu1.ethermine.org:4444
-proxypool2 eu2.ethermine.org:4444
-Poolpass1 x
-poolpass2 x
-	 
-#signatum
-#proxywallet raymon
-#proxypool1 stratum.chainworksindustries.com:2000
-#proxypool2 stratum.chainworksindustries.com:2000
+#proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
+#proxypool1 eu1.ethermine.org:4444
+#proxypool2 eu2.ethermine.org:4444
 #Poolpass1 x
 #poolpass2 x
+	 
+#Monero
+proxywallet 9f4d70dafc703bc1e3f1c586b7d6787d5658b55a0ea5e0b27fab420e58395502
+proxypool1 mine.moneropool.com:3333
+proxypool2 mine.moneropool.com:3334
+Poolpass1 x
+poolpass2 x
 	 
 #Fresh01
 miner 464151 sgminer-gm-xmr
