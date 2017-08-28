@@ -18,7 +18,9 @@ custompanel dfreshdminer
 proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
 proxypool1 ppool.usxmrpool.com:11443
 proxypool2 ppool.usxmrpool.com:11443
-	 
+Poolpass1 x
+poolpass2 x
+
 #Fresh01
 miner 464151 claymore
 mxt 464151 90
