@@ -1,6 +1,6 @@
 globalminer claymore
 maxgputemp 93
-stratumproxy enabled
+stratumproxy disabled
 claymore=flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 autoreboot 5
@@ -16,10 +16,9 @@ custompanel dfreshdminer
 	 
 #Monero
 proxywallet 9f4d70dafc703bc1e3f1c586b7d6787d5658b55a0ea5e0b27fab420e58395502
-proxypool1 pool.moneropool.nl:443
-proxypool2 pool.moneropool.nl:3333
-Poolpass1 x
-poolpass2 x
+#proxypool1 pool.moneropool.nl:443
+#proxypool2 pool.moneropool.nl:3333
+Pool: stratum+tcp://pool.moneropool.nl:443
 	 
 #Fresh01
 miner 464151 claymore
