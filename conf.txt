@@ -15,9 +15,9 @@ custompanel dfreshdminer
 #poolpass2 x
 	 
 #Monero
-proxywallet 9f4d70dafc703bc1e3f1c586b7d6787d5658b55a0ea5e0b27fab420e58395502
-proxypool1 pool.moneropool.nl:443
-proxypool2 pool.moneropool.nl:3333
+proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+proxypool1 ppool.usxmrpool.com:11443
+proxypool2 ppool.usxmrpool.com:11443
 	 
 #Fresh01
 miner 464151 claymore
@@ -47,7 +47,7 @@ mem cf0293 2150 2150 2150 2150 2150 2150 2150
 sel cf0293 0 1 2 3 4 5 6
 	 
 #Fresh04
-miner d14b21 sgminer-gm
+miner d14b21 sgminer-gm-xmr
 mxt d14b21 90
 reb d14b21 3
 loc d14b21 fresh-04
