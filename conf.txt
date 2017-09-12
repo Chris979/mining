@@ -1,4 +1,5 @@
 #globalminer claymore
+globaldriver amdgpu
 globalminer sgminer-gm-xmr
 maxgputemp 93
 stratumproxy enabled
@@ -21,7 +22,7 @@ custompanel dfreshdminer
 #proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
 #proxypool1 ppool.usxmrpool.com:11443
 #proxypool2 ppool.usxmrpool.com:11443
-#Poolpass1 x
+#poolpass1 x
 #poolpass2 x
 
 #Monero #2 MineXMR
@@ -68,19 +69,33 @@ sel cf0293 0 1 2 3 4 5 6
 	 
 #Fresh04
 #miner d14b21 claymore
+#miner d14b21 sgminer-gm-xmr
+#mxt d14b21 90
+#reb d14b21 4
+#loc d14b21 fresh-04
+#cor d14b21 1150 1150 1150 1150 1150 1150 1150 1150
+#mem d14b21 2050 2050 2050 2050 2050 2050 2050 2050
+#pwr d14b21 7 7 7 7 7 7 7 7
+#sel d14b21 0 1 2 3 4 5 6 7
+
+#Fresh04
+#miner d14b21 claymore
 miner d14b21 sgminer-gm-xmr
 mxt d14b21 90
 reb d14b21 4
 loc d14b21 fresh-04
-cor d14b21 1150 1150 1150 1150 1150 1150 1150 1150
-mem d14b21 2050 2050 2050 2050 2050 2050 2050 2050
+#cor d14b21 1125 1150 1150 1150 1150 1150 1150 1150
+#cor d14b21 1236 1236 1236 1236 1236 1236 1236 1169
+cor d14b21 1100 1100 1100 1100 1100 1100 1100 1100
+#mem d14b21 2000 2050 2050 2050 2050 2050 2050 2050
+mem d14b21 2000 2000 2000 2000 2000 2000 2000 2000
+vlt d14b21 1125 1125 1125 1125 1125 1125 1125 1125
 pwr d14b21 7 7 7 7 7 7 7 7
-sel d14b21 0 1 2 3 4 5 6 7
+#sel d14b21 0 1 2 3 4 5 6 7
 	 
 #Etherium of lijkende coin is claymore
 #Andere coin is sgminer-gm
-	 
-	 
+ 
 # Hashtag voor iets zetten zodat je aantekening kunt maken. Geen hashtag wordt meegenomen in programmering.
 #Fresh04   < Naam miner
 #miner d14b21 claymore < Enkel Ether is Claymore en andere coins zijn via sgminer-gm
