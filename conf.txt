@@ -12,25 +12,25 @@ lockscreen enabled
 custompanel dfreshdminer
 	 
 #Etherium
-#proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
-#proxypool1 eu1.ethermine.org:4444
-#proxypool2 eu2.ethermine.org:4444
-#poolpass1 x
-#poolpass2 x
+#claymore=proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
+#claymore=proxypool1 eu1.ethermine.org:4444
+#claymore=proxypool2 eu2.ethermine.org:4444
+#claymore=poolpass1 x
+#claymore=poolpass2 x
 	 
 #Monero
-#proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
-#proxypool1 ppool.usxmrpool.com:11443
-#proxypool2 ppool.usxmrpool.com:11443
-#poolpass1 x
-#poolpass2 x
+#sgminer-gm-xmr=proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+#sgminer-gm-xmr=proxypool1 ppool.usxmrpool.com:11443
+#sgminer-gm-xmr=proxypool2 ppool.usxmrpool.com:11443
+#sgminer-gm-xmr=poolpass1 x
+#sgminer-gm-xmr=poolpass2 x
 
 #Monero #2 MineXMR
-proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
-proxypool1 pool.minexmr.com:3333
-proxypool2 pool.minexmr.com:7777
-poolpass1 x
-poolpass2 x
+sgminer-gm-xmr=proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+sgminer-gm-xmr=proxypool1 pool.minexmr.com:3333
+sgminer-gm-xmr=proxypool2 pool.minexmr.com:7777
+sgminer-gm-xmr=poolpass1 x
+sgminer-gm-xmr=poolpass2 x
 
 #Fresh01
 #miner 464151 claymore
@@ -41,10 +41,12 @@ loc 464151 fresh-01
 cor 464151 1150 1150 1150 1150 1150 1150 1150
 mem 464151 2050 2100 2050 2100 2100 2100 2100 
 sel 464151 0 1 2 3 4 5 6
+pwr 464151 7 7 7 7 7 7 7 7
 	 
 #Fresh 02
 #miner d14934 claymore
 miner d14934 sgminer-gm-xmr
+wallet d14934 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
 mxt d14934 90
 reb d14934 5
 loc d14934 fresh-02
@@ -56,16 +58,21 @@ mem d14934 1950 1950 2000 1900 1900 1900 2000
 #optioneel
 #mem d14934 1900 1900 1900 1900 1900 1900 1900
 sel d14934 0 1 2 3 4 5 6
+pwr d14934 7 7 7 7 7 7 7 7
 	 
 #Fresh03
 #miner cf0293 claymore
 miner cf0293 sgminer-gm-xmr
+wallet cf0293 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
-reb cf0293 4
+reb cf0293 0
 loc cf0293 fresh-03
-cor cf0293 1300 1300 1300 1250 1300 1300 1300
-mem cf0293 2150 2150 2150 2150 2150 2150 2150
-sel cf0293 0 1 2 3 4 5 6
+#cor cf0293 1300 1300 1300 1250 1300 1300 1300
+#mem cf0293 2150 2150 2150 2150 2150 2150 2150
+cor cf0293 1203 1203 1203 1203 1203 1203 1203
+mem cf0293 2100 2100 2100 2100 2100 2100 2100
+pwr cf0293 7 7 7 7 7 7 7 7
 	 
 #Fresh04
 #miner d14b21 claymore
@@ -81,6 +88,7 @@ sel cf0293 0 1 2 3 4 5 6
 #Fresh04
 #miner d14b21 claymore
 miner d14b21 sgminer-gm-xmr
+wallet d14b21 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
 mxt d14b21 90
 reb d14b21 4
 loc d14b21 fresh-04
