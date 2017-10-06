@@ -32,9 +32,23 @@ sgminer-gm-xmr=proxypool2 pool.minexmr.com:7777
 sgminer-gm-xmr=poolpass1 x
 sgminer-gm-xmr=poolpass2 x
 
+#xmr #3 Nanopool
+#sgminer-gm-xmr=proxywallet 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
+#sgminer-gm-xmr=proxypool1 xmr-eu1.nanopool.org:14444
+#sgminer-gm-xmr=proxypool2 xmr-eu2.nanopool.org:14444
+#sgminer-gm-xmr=poolpass1 x
+#sgminer-gm-xmr=poolpass2 x
+
+claymore=proxywallet 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
+claymore=proxypool1 xmr-eu1.nanopool.org:14444
+claymore=proxypool2 xmr-eu2.nanopool.org:14444
+claymore=poolpass1 x
+claymore=poolpass2 x
+
 #Fresh01
 #miner 464151 claymore
 miner 464151 sgminer-gm-xmr
+wallet 464151 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
 mxt 464151 90
 reb 464151 4
 loc 464151 fresh-01
@@ -45,10 +59,10 @@ pwr 464151 7 7 7 7 7 7 7 7
 	 
 #Fresh 02
 #miner d14934 claymore
-miner d14934 sgminer-gm-xmr
-wallet d14934 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+miner d14934 claymore
+wallet d14934 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
 mxt d14934 90
-reb d14934 5
+reb d14934 6
 loc d14934 fresh-02
 #cor d14934 1150 1150 1150 1150 1150 1150 1150
 #cor d14934 1150 1150 1150 1100 1100 1100 1100
@@ -62,11 +76,11 @@ pwr d14934 7 7 7 7 7 7 7 7
 	 
 #Fresh03
 #miner cf0293 claymore
-miner cf0293 sgminer-gm-xmr
-wallet cf0293 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+miner cf0293 claymore
+wallet cf0293 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
 flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
-reb cf0293 0
+reb cf0293 1
 loc cf0293 fresh-03
 # 6 kaarten zijn gigabyte aorus 4GB met hynix geheugen
 # een na laatste kaart is een mining kaart
@@ -91,10 +105,10 @@ mem cf0293 2100 2100 2100 2100 2100 2100 1900 1850
 
 #Fresh04
 #miner d14b21 claymore
-miner d14b21 sgminer-gm-xmr
-wallet d14b21 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+miner d14b21 claymore
+wallet d14b21 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
 mxt d14b21 90
-reb d14b21 4
+reb d14b21 5
 loc d14b21 fresh-04
 cor d14b21 1050 1050 1050 1000 1050 1050 1050 1050 1050
 mem d14b21 2000 2000 1950 1900 1950 2000 2000 2000 2000
