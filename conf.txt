@@ -49,6 +49,7 @@ claymore=poolpass2 x
 #miner 464151 claymore
 miner 464151 sgminer-gm-xmr
 wallet 464151 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+poolemail 464151 info@dansschoolfresh.com
 mxt 464151 90
 reb 464151 4
 loc 464151 fresh-01
@@ -61,6 +62,7 @@ pwr 464151 7 7 7 7 7 7 7 7
 #miner d14934 claymore
 miner d14934 claymore
 wallet d14934 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
+poolemail d14934 info@dansschoolfresh.com
 mxt d14934 90
 reb d14934 6
 loc d14934 fresh-02
@@ -78,6 +80,7 @@ pwr d14934 7 7 7 7 7 7 7 7
 #miner cf0293 claymore
 miner cf0293 claymore
 wallet cf0293 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
+poolemail cf0293 info@dansschoolfresh.com
 flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
 reb cf0293 1
@@ -107,6 +110,7 @@ mem cf0293 2100 2100 2100 2100 2100 2100 1900 1850
 #miner d14b21 claymore
 miner d14b21 claymore
 wallet d14b21 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
+poolemail d14b21 info@dansschoolfresh.com
 mxt d14b21 90
 reb d14b21 5
 loc d14b21 fresh-04
