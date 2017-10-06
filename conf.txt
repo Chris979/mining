@@ -26,18 +26,18 @@ custompanel dfreshdminer
 #sgminer-gm-xmr=poolpass2 x
 
 #Monero #2 MineXMR
-sgminer-gm-xmr=proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
-sgminer-gm-xmr=proxypool1 pool.minexmr.com:3333
-sgminer-gm-xmr=proxypool2 pool.minexmr.com:7777
-sgminer-gm-xmr=poolpass1 x
-sgminer-gm-xmr=poolpass2 x
-
-#xmr #3 Nanopool
-#sgminer-gm-xmr=proxywallet 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
-#sgminer-gm-xmr=proxypool1 xmr-eu1.nanopool.org:14444
-#sgminer-gm-xmr=proxypool2 xmr-eu2.nanopool.org:14444
+#sgminer-gm-xmr=proxywallet 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyGPqyy8LUGPkdEjno
+#sgminer-gm-xmr=proxypool1 pool.minexmr.com:3333
+#sgminer-gm-xmr=proxypool2 pool.minexmr.com:7777
 #sgminer-gm-xmr=poolpass1 x
 #sgminer-gm-xmr=poolpass2 x
+
+#xmr #3 Nanopool
+sgminer-gm-xmr=proxywallet 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
+sgminer-gm-xmr=proxypool1 xmr-eu1.nanopool.org:14444
+sgminer-gm-xmr=proxypool2 xmr-eu2.nanopool.org:14444
+sgminer-gm-xmr=poolpass1 x
+sgminer-gm-xmr=poolpass2 x
 
 #Fresh01
 #miner 464151 claymore
@@ -58,7 +58,7 @@ miner d14934 sgminer-gm-xmr
 wallet d14934 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
 poolemail d14934 info@dansschoolfresh.com
 mxt d14934 90
-reb d14934 7
+reb d14934 8
 loc d14934 fresh-02
 #cor d14934 1150 1150 1150 1150 1150 1150 1150
 #cor d14934 1150 1150 1150 1100 1100 1100 1100
@@ -77,7 +77,7 @@ wallet cf0293 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQ
 poolemail cf0293 info@dansschoolfresh.com
 flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
-reb cf0293 2
+reb cf0293 3
 loc cf0293 fresh-03
 # 6 kaarten zijn gigabyte aorus 4GB met hynix geheugen
 # een na laatste kaart is een mining kaart
@@ -106,7 +106,7 @@ miner d14b21 sgminer-gm-xmr
 wallet d14b21 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
 poolemail d14b21 info@dansschoolfresh.com
 mxt d14b21 90
-reb d14b21 6
+reb d14b21 7
 loc d14b21 fresh-04
 cor d14b21 1050 1050 1050 1000 1050 1050 1050 1050 1050
 mem d14b21 2000 2000 1950 1900 1950 2000 2000 2000 2000
