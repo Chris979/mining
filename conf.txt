@@ -45,8 +45,8 @@ sgminer-gm-xmr=poolpass2 x
 
 #Fresh01
 #miner 464151 ccminer
-miner 464151 ccminer-x64.exe
-wallet 464151 etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma
+miner 464151 sgminer-gm-xmr
+wallet 464151 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
 poolemail 464151 info@dansschoolfresh.com
 mxt 464151 90
 reb 464151 5
