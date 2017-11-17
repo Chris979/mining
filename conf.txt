@@ -1,7 +1,6 @@
 #globalminer claymore
 globaldriver amdgpu
-#globalminer sgminer-gm-xmr
-globalminer ccminer
+globalminer sgminer-gm-xmr
 maxgputemp 93
 stratumproxy enabled
 #claymore=flags --cl-global-work 8192 --farm-recheck 200
@@ -44,8 +43,8 @@ sgminer-gm-xmr=proxypool2 xmr-eu2.nanopool.org:14444
 sgminer-gm-xmr=poolpass1 x
 sgminer-gm-xmr=poolpass2 x
 
-#TEST ELECTRONIUM Fresh01
-miner 464151 ccminer
+#Fresh01
+#miner 464151 ccminer
 miner 464151 ccminer-x64.exe
 wallet 464151 etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma
 poolemail 464151 info@dansschoolfresh.com
@@ -56,20 +55,6 @@ cor 464151 1150 1150 1150 1150 1150 1150 1150
 mem 464151 2050 2100 2050 2100 2100 2100 2100 
 sel 464151 0 1 2 3 4 5 6
 pwr 464151 7 7 7 7 7 7 7
-
-
-#Fresh01
-#miner 464151 ccminer
-#miner 464151 sgminer-gm-xmr
-#wallet 464151 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
-#poolemail 464151 info@dansschoolfresh.com
-#mxt 464151 90
-#reb 464151 5
-#loc 464151 fresh-01
-#cor 464151 1150 1150 1150 1150 1150 1150 1150
-#mem 464151 2050 2100 2050 2100 2100 2100 2100 
-#sel 464151 0 1 2 3 4 5 6
-#pwr 464151 7 7 7 7 7 7 7
 	 
 #Fresh 02
 #miner d14934 claymore
