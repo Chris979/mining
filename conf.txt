@@ -12,7 +12,12 @@ lockscreen enabled
 custompanel dfreshdminer
 	 
 #Electroneum
-sgminer-gm-xmr -a cryptonight -o stratum+tcp://eupool.electroneum.com:3333 -u etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma -p x
+sgminer-gm-xmr=proxywallet etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma
+sgminer-gm-xmr=proxypool1 eupool.electroneum.com:3333
+sgminer-gm-xmr=proxypool2 eupool.electroneum.com:3333
+sgminer-gm-xmr=poolpass1 x
+sgminer-gm-xmr=poolpass2 x	 
+	 
 	 
 #Etherium
 #claymore=proxywallet 0x9fFB5AB1dDE3d261B56CcA8B0f4C9e43b7A1C15a
