@@ -1,6 +1,7 @@
 #globalminer claymore
 globaldriver amdgpu
-globalminer sgminer-gm-xmr
+#globalminer sgminer-gm-xmr
+globalminer claymore-xmr
 maxgputemp 93
 stratumproxy enabled
 #claymore=flags --cl-global-work 8192 --farm-recheck 200
@@ -46,23 +47,13 @@ claymore-xmr=proxypool2 frankfurt01.electroneum.hashvault.pro:443
 claymore-xmr=poolpass1 :info@dansschoolfresh.com
 claymore-xmr=poolpass2 :info@dansschoolfresh.com
 
-
-
 #Fresh01
-#miner 464151 claymore
-#xmr
-#miner 464151 sgminer-gm-xmr
-#wallet 464151 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
-#poolemail 464151 info@dansschoolfresh.com
-
-#etn
 miner 464151 claymore-xmr
 wallet 464151 etnk5hPM2H1cTo8vYv6oTyKbJvPUeoaUjNMVBLmnTZcXY7pH8pDCfMdXqaFjHT2SWBZodnUUB1U3B7stqaokMa6b4JmbGU3L3F
 rigpool1 464151 pool.electroneum.hashvault.pro:443
 rigpool2 464151 frankfurt01.electroneum.hashvault.pro:443
 rigpoolpass1 464151 fresh-01:info@dansschoolfresh.com
 rigpoolpass2 464151 fresh-01:info@dansschoolfresh.com
-
 mxt 464151 90
 reb 464151 5
 loc 464151 fresh-01
@@ -73,13 +64,6 @@ pwr 464151 7 7 7 7 7 7 7
 fan 464151 60 60 60 60 60 60 60
 	 
 #Fresh 02
-#miner d14934 claymore
-#xmr
-#miner d14934 sgminer-gm-xmr
-#wallet d14934 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
-#poolemail d14934 info@dansschoolfresh.com
-
-#etn
 miner d14934 claymore-xmr
 wallet d14934 etnk5hPM2H1cTo8vYv6oTyKbJvPUeoaUjNMVBLmnTZcXY7pH8pDCfMdXqaFjHT2SWBZodnUUB1U3B7stqaokMa6b4JmbGU3L3F
 rigpool1 d14934 pool.electroneum.hashvault.pro:443
@@ -102,19 +86,12 @@ fan d14934 100 100 100 100 100 100 100
 vlt d14934 1150 1150 1150 1150 1150 1150 1150
 	 
 #Fresh03
-#miner cf0293 claymore
-#miner cf0293 sgminer-gm-xmr
-#wallet cf0293 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
-#poolemail cf0293 info@dansschoolfresh.com
-
-#etn
 miner cf0293 claymore-xmr
 wallet cf0293 etnk5hPM2H1cTo8vYv6oTyKbJvPUeoaUjNMVBLmnTZcXY7pH8pDCfMdXqaFjHT2SWBZodnUUB1U3B7stqaokMa6b4JmbGU3L3F
 rigpool1 cf0293 pool.electroneum.hashvault.pro:443
 rigpool2 cf0293 frankfurt01.electroneum.hashvault.pro:443
 rigpoolpass1 cf0293 fresh-03:info@dansschoolfresh.com
 rigpoolpass2 cf0293 fresh-03:info@dansschoolfresh.com
-
 flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
 reb cf0293 5
@@ -131,31 +108,12 @@ fan cf0293 60 60 60 60 60 60 60
 vlt cf0293 1150 1150 1150 1150 1150 1150 1150 1150
 
 #Fresh04
-#miner d14b21 claymore
-#miner d14b21 sgminer-gm-xmr
-#mxt d14b21 90
-#reb d14b21 4
-#loc d14b21 fresh-04
-#cor d14b21 1150 1150 1150 1150 1150 1150 1100 1150
-#mem d14b21 2050 2050 2050 2050 2050 2050 2000 2050
-#pwr d14b21 7 7 7 7 7 7 7 7
-#sel d14b21 0 1 2 3 4 5 6 7
-
-#Fresh04
-#miner d14b21 claymore
-#xmr
-#miner d14b21 sgminer-gm-xmr
-#wallet d14b21 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
-#poolemail d14b21 info@dansschoolfresh.com
-
-#etn
 miner d14b21 claymore-xmr
 wallet d14b21 etnk5hPM2H1cTo8vYv6oTyKbJvPUeoaUjNMVBLmnTZcXY7pH8pDCfMdXqaFjHT2SWBZodnUUB1U3B7stqaokMa6b4JmbGU3L3F
 rigpool1 d14b21 pool.electroneum.hashvault.pro:443
 rigpool2 d14b21 frankfurt01.electroneum.hashvault.pro:443
 rigpoolpass1 d14b21 fresh-04:info@dansschoolfresh.com
 rigpoolpass2 d14b21 fresh-04:info@dansschoolfresh.com
-
 mxt d14b21 90
 reb d14b21 9
 loc d14b21 fresh-04
