@@ -34,11 +34,11 @@ custompanel dfreshdminer
 #sgminer-gm-xmr=poolpass2 x
 
 #xmr #3 Nanopool
-sgminer-gm-xmr=proxywallet 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
-sgminer-gm-xmr=proxypool1 xmr-eu1.nanopool.org:14444
-sgminer-gm-xmr=proxypool2 xmr-eu2.nanopool.org:14444
-sgminer-gm-xmr=poolpass1 x
-sgminer-gm-xmr=poolpass2 x
+#sgminer-gm-xmr=proxywallet 4B4789QswACBMeDc1CKtcLKa2r5yaMbWs1Zsz6oGwwpgag4hqNMUkoZYEj8iNQKiGQAPGTZPjU1r5GXFj4S9RVpDUPLUEtw
+#sgminer-gm-xmr=proxypool1 xmr-eu1.nanopool.org:14444
+#sgminer-gm-xmr=proxypool2 xmr-eu2.nanopool.org:14444
+#sgminer-gm-xmr=poolpass1 x
+#sgminer-gm-xmr=poolpass2 x
 
 #etn
 claymore-xmr=proxywallet etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma
