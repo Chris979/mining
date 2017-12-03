@@ -71,7 +71,7 @@ rigpool2 d14934 frankfurt01.electroneum.hashvault.pro:443
 rigpoolpass1 d14934 fresh-02:info@dansschoolfresh.com
 rigpoolpass2 d14934 fresh-02:info@dansschoolfresh.com
 mxt d14934 90
-reb d14934 9
+reb d14934 10
 loc d14934 fresh-02
 #cor d14934 1150 1150 1150 1150 1150 1150 1150
 #cor d14934 1150 1150 1150 1100 1100 1100 1100
