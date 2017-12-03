@@ -49,13 +49,13 @@ claymore-xmr=poolpass2 :info@dansschoolfresh.com
 
 #Fresh01
 miner 464151 claymore-xmr
-wallet 464151 etnk5hPM2H1cTo8vYv6oTyKbJvPUeoaUjNMVBLmnTZcXY7pH8pDCfMdXqaFjHT2SWBZodnUUB1U3B7stqaokMa6b4JmbGU3L3F
+wallet 464151 etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma
 rigpool1 464151 pool.electroneum.hashvault.pro:443
 rigpool2 464151 frankfurt01.electroneum.hashvault.pro:443
 rigpoolpass1 464151 fresh-01:info@dansschoolfresh.com
 rigpoolpass2 464151 fresh-01:info@dansschoolfresh.com
 mxt 464151 90
-reb 464151 5
+reb 464151 6
 loc 464151 fresh-01
 cor 464151 1150 1150 1150 1150 1150 1150 1150
 mem 464151 2050 2100 2050 2100 2100 2100 2100 
@@ -65,13 +65,13 @@ fan 464151 60 60 60 60 60 60 60
 	 
 #Fresh 02
 miner d14934 claymore-xmr
-wallet d14934 etnk5hPM2H1cTo8vYv6oTyKbJvPUeoaUjNMVBLmnTZcXY7pH8pDCfMdXqaFjHT2SWBZodnUUB1U3B7stqaokMa6b4JmbGU3L3F
+wallet d14934 etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma
 rigpool1 d14934 pool.electroneum.hashvault.pro:443
 rigpool2 d14934 frankfurt01.electroneum.hashvault.pro:443
 rigpoolpass1 d14934 fresh-02:info@dansschoolfresh.com
 rigpoolpass2 d14934 fresh-02:info@dansschoolfresh.com
 mxt d14934 90
-reb d14934 10
+reb d14934 11
 loc d14934 fresh-02
 #cor d14934 1150 1150 1150 1150 1150 1150 1150
 #cor d14934 1150 1150 1150 1100 1100 1100 1100
@@ -87,14 +87,14 @@ vlt d14934 1150 1150 1150 1150 1150 1150 1150
 	 
 #Fresh03
 miner cf0293 claymore-xmr
-wallet cf0293 etnk5hPM2H1cTo8vYv6oTyKbJvPUeoaUjNMVBLmnTZcXY7pH8pDCfMdXqaFjHT2SWBZodnUUB1U3B7stqaokMa6b4JmbGU3L3F
+wallet cf0293 etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma
 rigpool1 cf0293 pool.electroneum.hashvault.pro:443
 rigpool2 cf0293 frankfurt01.electroneum.hashvault.pro:443
 rigpoolpass1 cf0293 fresh-03:info@dansschoolfresh.com
 rigpoolpass2 cf0293 fresh-03:info@dansschoolfresh.com
 flg cf0293 --cl-global-work 8192 --farm-recheck 200
 mxt cf0293 90
-reb cf0293 5
+reb cf0293 6
 loc cf0293 fresh-03
 # 6 kaarten zijn gigabyte aorus 4GB met hynix geheugen
 # een na laatste kaart is een mining kaart
@@ -109,13 +109,13 @@ vlt cf0293 1150 1150 1150 1150 1150 1150 1150 1150
 
 #Fresh04
 miner d14b21 claymore-xmr
-wallet d14b21 etnk5hPM2H1cTo8vYv6oTyKbJvPUeoaUjNMVBLmnTZcXY7pH8pDCfMdXqaFjHT2SWBZodnUUB1U3B7stqaokMa6b4JmbGU3L3F
+wallet d14b21 etnkM8v2rxyPVUM3AeSjUoHwg2Kyk77rBbe4q8fQW6q2BTguWyv7MxsBCET8Fn9tAL8978buN4UG9aHS3TfSXPgE2NnpTWYUma
 rigpool1 d14b21 pool.electroneum.hashvault.pro:443
 rigpool2 d14b21 frankfurt01.electroneum.hashvault.pro:443
 rigpoolpass1 d14b21 fresh-04:info@dansschoolfresh.com
 rigpoolpass2 d14b21 fresh-04:info@dansschoolfresh.com
 mxt d14b21 90
-reb d14b21 9
+reb d14b21 10
 loc d14b21 fresh-04
 cor d14b21 1150 1150 1050 1150 1150 1150 1150 1050
 mem d14b21 2000 2000 2000 2000 2000 2000 2000 2000
