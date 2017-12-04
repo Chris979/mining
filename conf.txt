@@ -106,7 +106,6 @@ cor cf0293 1175 1175 1175 1175 1175 1175 1175 1265
 mem cf0293 2100 2100 2100 2100 2100 2100 2000 2000
 pwr cf0293 7 7 7 7 7 7 7 7
 fan cf0293 60 60 60 60 60 60 60
-#vlt cf0293 1150 1150 1150 1150 1150 1150 1150 1150
 
 #Fresh04
 miner d14b21 claymore-xmr
@@ -123,11 +122,6 @@ cor d14b21 1175 1175 1175 1175 1175 1175 1175 1175
 mem d14b21 2000 2000 2000 2000 2000 2000 2050 2025
 pwr d14b21 7 7 7 7 7 7 7 7
 fan d14b21 60 60 60 60 60 60 60
-#vlt d14b21 1150 1150 1150 1150 1150 1150 1150 1150
-#sel d14b21 0 1 2 3 4 5 6 7
-	 
-#Etherium of lijkende coin is claymore
-#Andere coin is sgminer-gm
  
 # Hashtag voor iets zetten zodat je aantekening kunt maken. Geen hashtag wordt meegenomen in programmering.
 #Fresh04   < Naam miner
